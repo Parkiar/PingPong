@@ -30,6 +30,10 @@ float Puck::getRadius() const {
     return shape.getRadius();
 }
 
+sf::Vector2f Puck::getPosition() const {
+	return shape.getPosition();
+}
+
 sf::FloatRect Puck::getPositionRect() const {
     return shape.getGlobalBounds();
 }
